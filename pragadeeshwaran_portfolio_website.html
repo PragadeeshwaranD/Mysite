@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pragadeeshwaran D — AWS Cloud & Data Engineer</title>
+  <meta name="description" content="Portfolio of Pragadeeshwaran D — AWS Cloud & Data Engineer. Projects, experience, skills and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#06b6d4; --glass: rgba(255,255,255,0.04);
+      --maxw:1100px; font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071029 0%, #071b2a 60%);color:#e6eef6}
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:var(--maxw);margin:32px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,#06b6d4,#7c3aed);display:grid;place-items:center;font-weight:800}
+    .nav{display:flex;gap:14px;align-items:center}
+    .btn{background:var(--glass);padding:9px 12px;border-radius:10px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;margin-top:28px;align-items:center}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:22px;border-radius:14px;box-shadow:0 6px 20px rgba(2,6,23,0.6);}
+    .intro h1{margin:0;font-size:28px;line-height:1.02}
+    .intro p{color:var(--muted);margin-top:10px}
+    .cta{margin-top:18px;display:flex;gap:12px}
+    .primary{background:linear-gradient(90deg,var(--accent),#7c3aed);padding:10px 14px;border-radius:10px;font-weight:700}
+
+    .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;font-weight:600;color:var(--muted)}
+
+    .profile-card{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
+    .avatar{width:150px;height:150px;border-radius:14px;background:linear-gradient(135deg,#0ea5e9,#a78bfa);display:grid;place-items:center;font-weight:800;font-size:36px}
+    .meta{color:var(--muted);font-weight:600}
+
+    section{margin-top:28px}
+    h2{margin:0 0 12px 0;font-size:18px}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(2,1fr)}
+    .list{display:flex;flex-direction:column;gap:10px}
+    .item{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px}
+    .item h3{margin:0;font-size:15px}
+    .small{color:var(--muted);font-size:13px;margin-top:6px}
+
+    footer{margin:30px 0;text-align:center;color:var(--muted)}
+
+    /* responsive */
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+    }
+    @media (max-width:520px){
+      .container{padding:16px;margin:12px}
+      .logo{width:48px;height:48px}
+      .avatar{width:120px;height:120px}
+    }
+
+    /* small utilities */
+    .tag{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.02);font-weight:700}
+    .timeline{border-left:2px solid rgba(255,255,255,0.03);padding-left:14px}
+    .timeline .entry{margin-bottom:16px}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,monospace;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">PD</div>
+        <div>
+          <div style="font-weight:800">PRAGADEESHWARAN D</div>
+          <div style="color:var(--muted);font-size:13px">AWS Cloud & Data Engineer — Erode, Tamil Nadu</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#experience">Experience</a>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn" href="Pragadeeshwaran_AWS_Data_Engineer_Resume.pdf" download>Download Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="card intro">
+          <h1>Hi — I’m Pragadeeshwaran, an AWS Cloud & Data Engineer</h1>
+          <p>I design and build scalable data pipelines, analytics platforms and automated cloud infrastructure using AWS (S3, Redshift, Glue, Athena, QuickSight, Lambda, Terraform). I focus on delivering fast, secure and cost-optimised solutions for analytics and reporting.</p>
+
+          <div class="skills">
+            <span class="skill">AWS: S3 · Redshift · Glue · Athena</span>
+            <span class="skill">Data: SQL · Python · ETL</span>
+            <span class="skill">Infra: Terraform · EC2 · VPC · IAM</span>
+            <span class="skill">Analytics: QuickSight · Dashboards</span>
+          </div>
+
+          <div class="cta">
+            <a class="primary" href="#contact">Hire / Contact</a>
+            <a class="btn" href="#projects">See projects</a>
+          </div>
+        </div>
+
+        <aside class="card profile-card">
+          <div class="avatar">PD</div>
+          <div style="font-weight:800">Pragadeeshwaran D</div>
+          <div class="meta">AWS Certified Solutions Architect — Erode, India</div>
+          <div class="meta mono">pragadeeshwarad1475369@gmail.com</div>
+          <div style="display:flex;gap:8px;margin-top:10px">
+            <a class="tag" href="https://www.linkedin.com/in/pragadeeshwaran-d" target="_blank">LinkedIn</a>
+            <a class="tag" href="#" target="_blank">GitHub / Portfolio</a>
+          </div>
+        </aside>
+      </div>
+
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p style="color:var(--muted)">AWS Certified Cloud & Data Engineer with hands-on experience in building data pipelines, cloud architectures and analytics dashboards. Experienced in ETL automation, data lake management and cost optimisation. I deliver measurable business impact — faster reporting and lower cloud costs — while working closely with stakeholders to turn data into actionable insights.</p>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>Selected Projects</h2>
+        <div class="list">
+          <div class="item">
+            <h3>Cloud Data Analytics Dashboard — (TCS)</h3>
+            <div class="small">S3 → Redshift → QuickSight | Automated pipeline & dashboards</div>
+            <div class="small">Impact: Reduced manual reporting time by 60% and improved query performance by 40%.</div>
+          </div>
+
+          <div class="item">
+            <h3>Infrastructure Automation Lab (Personal)</h3>
+            <div class="small">Terraform + AWS EC2 & S3 | Infrastructure as Code for repeatable environments</div>
+          </div>
+
+          <div class="item">
+            <h3>AWS Real-Time Data Stream (Personal)</h3>
+            <div class="small">Kinesis Data Firehose → S3 → QuickSight for near real-time analytics.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="card">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="entry">
+            <div style="font-weight:800">Tata Consultancy Services (TCS) — Data Analyst / AWS Cloud Projects</div>
+            <div class="small">Kochi, India | Sept 2023 – Present</div>
+            <ul style="margin-top:8px;color:var(--muted)">
+              <li>Designed and optimised AWS Redshift clusters and ETL pipelines — improved query performance by 40%.</li>
+              <li>Automated S3 → Redshift → QuickSight ingestion and dashboard refresh — reduced manual reporting time by 60%.</li>
+              <li>Configured VPC & IAM for secure role-based access and monitored resources with CloudWatch.</li>
+              <li>Achieved a 15% AWS cost reduction through rightsizing and optimisation.</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <div style="font-weight:800">Techvolt Software — Cloud & Data Intern</div>
+            <div class="small">Coimbatore, India | Jul 2023 – Aug 2023</div>
+            <ul style="margin-top:8px;color:var(--muted)">
+              <li>Migrated on-prem datasets to S3 and built ETL workflows with AWS Glue.</li>
+              <li>Wrote Terraform scripts to provision test environments and automated data-cleaning scripts in Python.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="card grid">
+        <div>
+          <h2>Certifications</h2>
+          <div class="list">
+            <div class="item"><strong>AWS Certified Solutions Architect — Associate</strong></div>
+            <div class="item"><strong>AWS Certified Cloud Practitioner</strong></div>
+            <div class="item"><strong>HashiCorp Certified: Terraform Associate (2025)</strong></div>
+            <div class="item"><strong>Microsoft Excel — Intermediate</strong></div>
+          </div>
+        </div>
+
+        <div>
+          <h2>Education</h2>
+          <div class="list">
+            <div class="item"><strong>MCA</strong> — Excel College of Engineering & Technology (2022 – 2024)</div>
+            <div class="item"><strong>BSc Computer Science</strong> — Kongu Arts and Science College (2019 – 2022)</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p class="small">Interested in collaborating or hiring? Reach out — I usually reply within 24–48 hours.</p>
+        <div style="display:flex;flex-direction:column;gap:10px;max-width:520px">
+          <div class="item"><strong>Email</strong><div class="small">pragadeeshwarad1475369@gmail.com</div></div>
+          <div class="item"><strong>LinkedIn</strong><div class="small"><a href="https://www.linkedin.com/in/pragadeeshwaran-d" target="_blank">linkedin.com/in/pragadeeshwaran-d</a></div></div>
+          <div class="item"><strong>Location</strong><div class="small">Erode, Tamil Nadu, India</div></div>
+        </div>
+
+        <form style="margin-top:14px;display:flex;flex-direction:column;gap:8px;max-width:520px" onsubmit="sendMail(event)">
+          <input id="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" />
+          <input id="email" type="email" placeholder="Your email" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" />
+          <textarea id="message" rows="4" placeholder="Message" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit"></textarea>
+          <div style="display:flex;gap:10px">
+            <button class="primary" type="submit">Send message</button>
+            <a class="btn" href="mailto:pragadeeshwarad1475369@gmail.com">Or email directly</a>
+          </div>
+          <div id="status" class="small" style="color:var(--muted)"></div>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>Made with ❤️ — Pragadeeshwaran D · <span class="mono">AWS | Data Engineering</span></div>
+    </footer>
+  </div>
+
+  <script>
+    function sendMail(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const status = document.getElementById('status');
+      if(!name||!email||!message){ status.textContent = 'Please fill all fields.'; return }
+      const subject = encodeURIComponent('Portfolio contact from ' + name);
+      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message);
+      window.location.href = 'mailto:pragadeeshwarad1475369@gmail.com?subject='+subject+'&body='+body;
+      status.textContent = 'Opening your email client...';
+    }
+  </script>
+</body>
+</html>
